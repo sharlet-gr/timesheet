@@ -1,12 +1,19 @@
 {
-  "name"         : "timesheet",
-  "version"      : "0.0.0",
-  "description"  : "Simple timesheet application.",
-  "main"         : "server.js",
-  "dependencies" : {
-    "body-parser"    : "*",
-    "express"        : "*",
-    "mongoose"       : "*",
-    "morgan"         : "*"
+  "name": "timesheet",
+  "version": "0.0.0",
+  "description": "Simple timesheet application.",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "*",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "*",
+    "express-session": "^1.14.0",
+    "mongoose": "*",
+    "morgan": "*",
+    "nodemon": "^1.9.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   }
 }
