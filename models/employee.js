@@ -6,6 +6,7 @@ var employeeSchema = mongoose.Schema({
 	username:{type: String, required: true, unique: true},
 	name:{type: String, required: true},
 	password:{type: String, required: true},
+	projects:[{type: mongoose.Schema.Types.ObjectId,ref:'Project'}],
 	tasks: [{
 		project: {type: mongoose.Schema.Types.ObjectId,ref:'Project'},
 		time: String,
